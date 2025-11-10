@@ -56,7 +56,7 @@ public class ClienteServiceimpl implements IClienteService {
             obtener.setName(cliente.getName());
             obtener.setPassword(cliente.getPassword());
             obtener.setPicture(cliente.getPicture());
-            obtener.setReservas(cliente.getReservas());
+
 
             if (obtener.getReservas() != null){
                 obtener.getReservas().clear();
